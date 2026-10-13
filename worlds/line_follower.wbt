@@ -10,7 +10,7 @@ WorldInfo {
 }
 Viewpoint {
   orientation 0.2424159231063608 0.2477056527939224 -0.9380172865136482 1.6131726483229862
-  position -0.13429935111975708 3.179186050614682 1.6290310875499063
+  position -0.1547155510905003 4.124362736314323 2.152645352048436
 }
 TexturedBackground {
 }
@@ -39,6 +39,7 @@ RectangleArena {
   }
 }
 E-puck {
+  controller "line_follower_controller"
   groundSensorsSlot [
     DistanceSensor {
       translation 0 -0.01 0
