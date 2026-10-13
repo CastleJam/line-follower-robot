@@ -9,14 +9,15 @@ EXTERNPROTO "../protos/TrackOne.proto"
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.2424159231063608 0.2477056527939224 -0.9380172865136482 1.6131726483229862
-  position -0.1547155510905003 4.124362736314323 2.152645352048436
+  orientation 0.009149421042253681 -0.0001849222976073463 -0.9999581260724549 3.181699140665841
+  position 0.1675023504037781 -0.1302013073878178 0.021619822230612595
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
 RectangleArena {
+  translation 0.01 0 0
   floorSize 2 2
   floorAppearance PBRAppearance {
     roughness 1
@@ -39,15 +40,19 @@ RectangleArena {
   }
 }
 E-puck {
+  translation -0.059467 -0.12 -0.000564963
+  rotation 1.9027330628124117e-07 -0.9999999356662732 -0.00035870240241961317 0.0008491685886508469
   controller "line_follower_controller"
   groundSensorsSlot [
     DistanceSensor {
       translation 0 -0.01 0
+      rotation 0 1 0 1.5708
       name "ir0"
       type "infra-red"
     }
     DistanceSensor {
       translation 0 0.02 0
+      rotation 0 1 0 1.5708
       name "ir1"
       type "infra-red"
     }
