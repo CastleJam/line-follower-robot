@@ -19,7 +19,7 @@ tempCodeRunnerFile.py
 
 # Webots local workspace settings and generated world thumbnails
 *.wbproj
-/worlds/.*.jpg
+
 
 # Compiled controller and plugin outputs
 *.o
